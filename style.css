@@ -1,0 +1,122 @@
+.nameCompany {
+    text-align: left; 
+    font-weight: 600;
+    font-size: 18px; 
+    color: #ffffff; 
+    padding-left: 20px; 
+    margin: 0; 
+}
+
+
+.headerd {
+    padding: 4px;
+    position: sticky;
+    background: linear-gradient(rgb(100, 57, 255), rgb(79, 117, 255), rgb(0, 204, 221), rgb(124, 245, 255));
+    border-radius: 20px;
+    text-align: left; 
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    z-index: 2; 
+}
+
+
+.navbar-container {
+    width: 100%;
+    position: absolute;
+    height: 5rem;
+    background: transparent;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 10%;
+}
+
+
+
+#main-container {
+    background-color: #a3e4f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #0056b3;
+}
+
+#student-form {
+    background-color: #b3f1f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    background-color: #fff;
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+button {
+    margin-right: 10px;
+}
+
+
+.hero-section {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 80vh;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.hero-section .btn-light {
+    padding: 10px 30px;
+    font-size: 1.25rem;
+}
+
+
+.features-section h2 {
+    color: #0056b3;
+}
+
+.feature-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.feature-box:hover {
+    background-color: #e6f7ff;
+    transform: translateY(-5px);
+}
+
+.feature-box h5 {
+    color: #0056b3;
+}
+
+.feature-box p {
+    color: #333;
+}
+
+.feature-box .btn-primary {
+    margin-top: 15px;
+}
+
+#contact{
+    color: rgb(133, 20, 20);
+}
+
+footer {
+    background-color: #0056b3;
+}
